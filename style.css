@@ -1,0 +1,66 @@
+body {
+    font-family: Calibri;
+}
+
+
+h1, h2 {
+    font-family: 'Courier New';
+    color: red;
+}
+
+
+a:visited {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: red;           
+    text-decoration: underline; 
+}
+
+a:active {
+    color: green;      
+}
+
+input[type="submit"] {
+    background-color: lightgray;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: red;
+    color: white;
+}
+
+input[type="submit"]:active {
+    background-color: green;
+    color: white;
+}
+
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+table {
+    border-collapse: collapse;
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+tr:hover {
+    background-color: lightblue;
+}

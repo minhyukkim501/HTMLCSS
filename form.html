@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking Form</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <a href="index.html">Back to Home</a>
+    
+    <h2>Book Our Cleaning Service</h2>
+    <h4>Please fill out this form</h4>
+    
+    <form>
+        <p>Name: <input type="text" name="name"></p> 
+        <p>Password: <input type="password" name="password"></p> 
+        
+        <h4>Service Type:</h4>
+        <input type="radio" name="service" value="home"> Home Cleaning<br>
+        <input type="radio" name="service" value="office"> Office Cleaning<br>
+        <input type="radio" name="service" value="carpet"> Carpet Cleaning<br>
+        
+        <h4>Extra Services:</h4>
+        <input type="checkbox" name="extra" value="home"> Home Cleaning<br>
+        <input type="checkbox" name="extra" value="office"> Office Cleaning<br>
+        <input type="checkbox" name="extra" value="carpet"> Carpet Cleaning<br>
+        <input type="checkbox" name="extra" value="window"> Window Cleaning<br>
+        <input type="checkbox" name="extra" value="move-out"> Move-out Cleaning<br>
+        <input type="checkbox" name="extra" value="maintenance"> Maintenance Cleaning<br>
+        
+        
+        <h4>Preferred Day:</h4>
+        <select name="day" multiple size="4">
+            <option value="monday">Monday</option>
+            <option value="tuesday">Tuesday</option>
+            <option value="wednesday">Wednesday</option>
+            <option value="thursday">Thursday</option>
+            <option value="friday">Friday</option>
+            <option value="saturday">Saturday</option>
+            <option value="sunday">Sunday</option>
+        </select>
+        
+        <p>Booking Date: <input type="date" name="date"></p>
+        
+        <p><input type="submit" value="Submit"></p>
+    </form>
+</body>
+</html>
